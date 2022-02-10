@@ -7,3 +7,5 @@ def study_schedule(permanence_period, target_time):
         return online_students
     except TypeError:
         return None
+
+# https://stackoverflow.com/questions/16021571/iterating-quickly-through-list-of-tuples

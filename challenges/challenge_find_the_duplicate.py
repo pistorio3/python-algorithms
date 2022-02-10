@@ -6,6 +6,6 @@ def find_duplicate(nums):
                 return False
             if num in set_:
                 return num
-            set_.add(num)    
+            set_.add(num)
         return False
-    return False    
+    return False

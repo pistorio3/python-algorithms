@@ -24,10 +24,8 @@ def mergeSort(arr):
         mid = len(arr)//2
         L = arr[:mid]
         R = arr[mid:]
-
         mergeSort(L)
         mergeSort(R)
-
         arr = merge(arr, L, R)
 
 
